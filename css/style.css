@@ -1,6 +1,7 @@
 form {
     background-color: #213b50;
     color: #fff;
+    padding: 20px;
 }
 
 input,
@@ -11,6 +12,17 @@ textarea {
    width: 50%;
    margin-bottom: 10px;
    border:1px solid #2b4a64;
+   padding: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    height:25px ;
+}
+
+textarea {
+    min-height: 50px;
 }
 
 input[type="radio"],
